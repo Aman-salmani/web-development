@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <form>
+    
+        <h1>Student Registration Portal</h1>
+        <h2>Fill all details carefully</h2>
+        <hr>
+    
+   
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" placeholder="Enter your name" required>
+        <br>
+        <label for="mail">Email</label>
+        <input id="mail" type="email" name="emailId" placeholder="Enter your email ID" required>
+        <br>
+        <label for="password">Password</label>
+        <input id="password" type="password" name="password" required>
+        <br>
+        <label for="phone">Phone Number</label>
+        <input id="phone" type="tel" name="phone" required>
+        <br>
+        <label for="date">Date of Birth</label>n
+        <input id="date" name="dob" type="date" required>
+        <br>
+        <p>Gender</p>
+        <label for="male">Male</label>
+        <input id="male" type="radio" name="gen" value="male" required>
+        <label for="female">Female</label>
+        <input id="female" type="radio" name="gen" value="female">
+        <label for="other">Other</label>
+        <input id="other" type="radio" name="gen" value="other">
+        <hr>
+        <p>Skills</p>
+        <label for="java">Java</label>
+        <input id="java" type="checkbox" name="skill" value="java">
+        <br>
+         <label for="javaScript">JavaScript</label>
+        <input id="javaScript" type="checkbox" name="skill" value="javaScript">
+        <br>
+         <label for="html">HTML</label>
+        <input id="html" type="checkbox" name="skill" value="html">
+        <br>
+         <label for="css">CSS</label>
+        <input id="css" type="checkbox" name="skill" value="css">
+        <hr>
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="Nepal">Nepal</option>
+            <option value="USA">USA</option>
+        </select>
+        <hr>
+        <label for="file">Upload Resume</label>
+        <input name="resume" type="file" id="file" accept=".pdf,.doc,.docx" required>
+        <p>Experience</p>
+        <input name="experience" min="0" max="10" step="1" type="range" value="5" required>
+        <p>About yourself</p>
+        <textarea 
+        name="aboutYourself" 
+        placeholder="write about yourself">
+        </textarea>
+         <hr>
+            <p>Accept Terms</p>
+            <input id="accept" type="checkbox" name="condition" value="accept" required>
+            <label for="accept">I agree to all Terms & Conditions</label>
+            <hr>
+            <button type="submit">Register</button>
+            <br>
+            <button type="reset">Clear All</button>
+        </form>
+</body>
+</html>
