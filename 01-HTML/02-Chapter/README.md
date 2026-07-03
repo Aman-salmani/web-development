@@ -427,22 +427,6 @@ HTML is **NOT** case-sensitive.
 ```
 
 ---
-
-# Interview Questions
-
-1. What is the difference between `<ol>` and `<ul>`?
-2. What is a Description List?
-3. What are HTML attributes?
-4. Where are attributes written?
-5. What is the purpose of the `href` attribute?
-6. What is the difference between `target="_blank"` and `target="_self"`?
-7. Why is the `alt` attribute important?
-8. Why is `<img>` called a Void Tag?
-9. What is the difference between `<br>` and `<hr>`?
-10. Are HTML tags case-sensitive?
-
----
-
 # Summary
 
 - HTML Lists organize related content.
